@@ -39,9 +39,13 @@ public interface CategoryControl
      * Update Category
      * @param id Category id
      * @param name Category name to update
-     * @throws CategoryException with state: <br />
-     * 1. {@link CategoryException#NOT_EXISTS} if category does not exists with specified id<br />
+     * @throws CategoryException with state:
+     * <p>
+     * 1. {@link CategoryException#NOT_EXISTS} if category does not exists with specified id
+     * </p>
+     * <p>
      * 2. {@link CategoryException#DUPLICATE} if a category already exists with specified name
+     * </p>
      */
     public void update(long id, String name) throws CategoryException;
     

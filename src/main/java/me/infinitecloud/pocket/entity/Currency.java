@@ -93,7 +93,7 @@ public class Currency
     /**
      * Indicate that current currency is used within the system. Helps to load
      * only used currencies for memory optimization
-     * @param used 
+     * @param used Whether used or not 
      */
     public void setUsed(boolean used)
     {
@@ -109,13 +109,16 @@ public class Currency
      * Set decimal position within given Rate. For example: if rate was 100.50,
      * position will be 2. Position is the power (^)  of 10, which is used to indicate
      * the position of the decimal. If rate is stored as 10050, and position is 2, then
-     * the position will be calculated as follows: <br />
-     * Divider = 10 ^ (position) <br />
-     * Divider = 10 ^ 2 <br />
-     * Divider = 100 <br />
-     * Final Rate = Rate / Divider <br />
-     * Final Rate = 10050 / 100 <br />
-     * Final Rate = 100.50 <br />
+     * <p>
+     * the position will be calculated as follows:
+     * </p>
+     * <p>Divider = 10 ^ (position)</p>
+     * <p>Divider = 10 ^ 2</p>
+     * <p>Divider = 100 </p>
+     * <p>Final Rate = Rate / Divider </p>
+     * <p>Final Rate = 10050 / 100 </p>
+     * <p>Final Rate = 100.50 </p>
+     * 
      * @param pos Decimal position
      */
     public void setPos(int pos)

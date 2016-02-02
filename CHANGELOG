@@ -1,0 +1,6 @@
+Version 0.2.0:
+- Fixed errors of compilation due to use <br /> tag in java doc
+
+********************************************************************************
+Version 0.1.0:
+- Created the project
