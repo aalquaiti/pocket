@@ -1,6 +1,15 @@
+Version 0.4.0:
+- Changes to code
+- Changed constant integers to enums
+
+********************************************************************************
+
+Version 0.3.0:
+- Changes to code
+- Add implementation to incomplete statements
+********************************************************************************
 Version 0.2.0:
 - Fixed errors of compilation due to use <br /> tag in java doc
-
 ********************************************************************************
 Version 0.1.0:
 - Created the project
